@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h4>contador de clicks: <span id="contClicks"> 0 </span></h4>
+    <h1>Twitter</h1>
+    <form>
+        <textarea rows="4" cols="50" id="areaEscritura" ></textarea>
+        <span>De:</span>
+        <input type="text" id="autor">
+        <span id="caracteres">0</span>
+        <span>/140</span>
+
+      <button id="botonEnviar" onclick="enviando(event)">Enviar
+      </button>
+    </form>
+    <hr>
+
+
+    <section id="tweets">
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
